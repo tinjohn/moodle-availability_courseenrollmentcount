@@ -1,0 +1,10 @@
+{
+  "name": "moodle-availability_courseenrollmentcount-form",
+  "builds": {
+    "moodle-availability_courseenrollmentcount-form": {
+      "jsfiles": [
+        "form.js"
+      ]
+    }
+  }
+}
