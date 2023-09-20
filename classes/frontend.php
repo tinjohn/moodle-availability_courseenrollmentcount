@@ -25,6 +25,9 @@
 
 namespace availability_courseenrollmentcount;
 
+defined('MOODLE_INTERNAL') || die();
+
+
 use \cm_info;
 use \completion_info;
 use \section_info;
@@ -34,29 +37,11 @@ use \stdClass;
  * Front-end class.
  *
  * @package   availability_courseenrollmentcount
- * @copyright 2015 iplusacademy (www.iplusacademy.org)
- * @author    Renaat Debleu <info@eWallah.net>
+ * @copyright 2023 Tina John
+ * @author    Tina John <johnt.22.tijo@gmail.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class frontend extends \core_availability\frontend {
 
-
-    /**
-     * Decides whether this plugin should be available in a given course. The
-     * plugin can do this depending on course or system settings.
-     *
-     * @param stdClass $course Course object
-     * @param cm_info $cm Course-module currently being edited (null if none)
-     * @param section_info $section Section currently being edited (null if Course object)
-     * @return bool True if there are completion criteria
-     */
-    protected function allow_add($course, cm_info $cm = null, section_info $section = null) {
-        if ($course->enablecompletion == 1) {
-            $completioninfo = new \completion_info($course);
-            if (count($completioninfo->get_criteria()) > 0) {
-                return true;
-            }
-        }
-        return false;
-    }
+    // nothing to be done here
 }

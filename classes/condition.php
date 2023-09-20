@@ -18,8 +18,8 @@
  * Condition main class.
  *
  * @package   availability_courseenrollmentcount
- * @copyright 2015 iplusacademy (www.iplusacademy.org)
- * @author    Renaat Debleu <info@eWallah.net>
+ * @copyright 2023 Tina John
+ * @author    Tina John <johnt.22.tijo@gmail.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -31,14 +31,6 @@ use \coding_exception;
 use \stdClass;
 
 
-/**
- * Condition main class.
- *
- * @package   availability_courseenrollmentcount
- * @copyright 2015 iplusacademy (www.iplusacademy.org)
- * @author    Renaat Debleu <info@eWallah.net>
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
 class condition extends \core_availability\condition {
 
     /** @var int nrofcourseenrollment  */

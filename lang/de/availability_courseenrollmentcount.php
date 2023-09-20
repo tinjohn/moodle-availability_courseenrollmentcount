@@ -17,9 +17,10 @@
 /**
  * Language strings.
  *
- * @package availability_courseenrollmentcount
- * @copyright MU DOT MY PLT <support@mu.my>
- * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   availability_courseenrollmentcount
+ * @copyright 2023 Tina John
+ * @author    Tina John <johnt.22.tijo@gmail.com>
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
  
